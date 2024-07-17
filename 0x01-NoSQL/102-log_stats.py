@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Task 15's module.
+"""Log stats in MongoDB by http method and top 10 IPs.
 """
 from pymongo import MongoClient
 
