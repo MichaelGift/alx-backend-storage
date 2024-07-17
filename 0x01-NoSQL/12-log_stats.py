@@ -5,7 +5,7 @@ from pymongo import MongoClient
 
 
 def print_http_request_logs(nginx_collection):
-    """Print the number of logs and the number of logs by method.
+    """Print the number of logs by http method.
     """
     print('{} logs'.format(nginx_collection.count_documents({})))
     print('Methods:')
